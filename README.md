@@ -5,8 +5,8 @@ Desenvolvedor Fullstack em evolução, focado em construir aplicações modernas
 ---
 
 ##  Sobre mim
-- 🎓 Estudante de tecnologia  
-- 💻 Foco em desenvolvimento web  
+-  Estudante de tecnologia  
+-  Foco em desenvolvimento web  
 -  Buscando minha primeira oportunidade na área  
 
 ---
@@ -20,14 +20,14 @@ Desenvolvedor Fullstack em evolução, focado em construir aplicações modernas
 ---
 
 ##  Projetos
-- 🔗 Portfólio Fullstack (React + API)  
-- 🔗 API com Node.js (CRUD)  
+- Portfólio Fullstack (React + API)  
+-  API com Node.js (CRUD)  
 
 ---
 
 ##  Contato
-📱 WhatsApp: https://wa.me/5511940723203  
-📧 Email: franciscadev17@gmail.com  
+ WhatsApp: https://wa.me/5511940723203  
+ Email: franciscadev17@gmail.com  
 
 ---
 
