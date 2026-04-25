@@ -1,16 +1,35 @@
-## Hi there 👋
+# 🚀 Francisco Dev
 
-<!--
-**franciscadev/franciscadev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desenvolvedor Fullstack em evolução, focado em construir aplicações modernas, funcionais e com integração real entre frontend e backend.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧠 Sobre mim
+- Estudante de tecnologia
+- Foco em desenvolvimento web
+- Buscando minha primeira oportunidade na área
+
+---
+
+## ⚛️ Tecnologias
+- React
+- Node.js
+- JavaScript
+- HTML & CSS
+
+---
+
+## 🚀 Projetos
+- 🔗 Portfólio Fullstack (React + API)
+- 🔗 API com Node.js (CRUD)
+
+---
+
+## 🌐 Contato
+📱 WhatsApp: https://wa.me/5511999999999  
+📧 Email: seuemail@email.com  
+
+---
+
+## 🎯 Objetivo
+Desenvolver soluções modernas e conquistar uma oportunidade como desenvolvedor.
