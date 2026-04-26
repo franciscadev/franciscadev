@@ -1,35 +1,83 @@
-#  Francisca Dev
+#  Meu Projeto API
 
-Desenvolvedor Fullstack em evolução, focado em construir aplicações modernas, funcionais e com integração real entre frontend e backend.
-
----
-
-##  Sobre mim
--  Estudante de tecnologia  
--  Foco em desenvolvimento web  
--  Buscando minha primeira oportunidade na área  
+API REST construída com Node.js, Express e MongoDB, pronta para deploy no Render.
 
 ---
 
-##  Tecnologias
-- React  
-- Node.js  
-- JavaScript  
-- HTML & CSS  
+## Estrutura do projeto
+
+
+/meu-projeto-api
+├── index.js
+├── routes/
+├── models/
+├── package.json
+
 
 ---
 
-##  Projetos
-- Portfólio Fullstack (React + API)  
--  API com Node.js (CRUD)  
+## Tecnologias
+
+- Node.js
+- Express
+- MongoDB (Mongoose)
+- CORS
 
 ---
 
-##  Contato
- WhatsApp: https://wa.me/5511940723203  
- Email: franciscadev17@gmail.com  
+##  Como rodar localmente
 
----
+### 1. Instalar dependências
+```bash
+npm install
+2. Iniciar servidor
+npm start
+ Variáveis de ambiente
 
-## Objetivo
-Desenvolver soluções modernas, evoluir como desenvolvedor e conquistar uma oportunidade na área de tecnologia.
+Crie um arquivo .env (ou configure no Render):
+
+MONGO_URL=mongodb+srv://usuario:senha@cluster.mongodb.net/meubanco
+PORT=3000
+ index.js (produção)
+const express = require('express');
+const cors = require('cors');
+const mongoose = require('mongoose');
+const usuariosRoutes = require('./routes/usuarios');
+
+const app = express();
+
+// PORTA DO RENDER
+const PORT = process.env.PORT || 3000;
+
+// CONEXÃO MONGODB ATLAS
+mongoose.connect(process.env.MONGO_URL)
+  .then(() => console.log('MongoDB conectado'))
+  .catch(err => console.log(err));
+
+app.use(cors());
+app.use(express.json());
+
+// ROTAS
+app.use('/usuarios', usuariosRoutes);
+
+app.get('/', (req, res) => {
+  res.send('API rodando no Render 🚀');
+});
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
+});
+ package.json
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5"
+  }
+}
