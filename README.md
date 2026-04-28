@@ -22,7 +22,7 @@ Meu trabalho vai além do design. Cada projeto é pensado para atrair, gerar con
 
 ---
 
-## 📈 Meu foco
+##  Meu foco
 
  Performance  
  Conversão  
